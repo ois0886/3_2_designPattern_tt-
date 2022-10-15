@@ -12,7 +12,7 @@ public class CartForSongs {
 
 		while (itr.hasNext()) {
 			Song s = itr.next();
-			if (s.getDiscountMode().equals("Onsale"))
+			if (s.getDiscountMode().equals("onSale"))
 				total = total + (s.getPrice() - 0.1 * s.getPrice());
 			else if (s.getDiscountMode().equals("TodayEvent"))
 				total = total + (s.getPrice() - 0.3 * s.getPrice());
