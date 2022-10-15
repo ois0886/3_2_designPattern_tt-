@@ -239,4 +239,9 @@ Temporary Items
 # iCloud generated files
 *.icloud
 
+<<<<<<< Updated upstream
 # End of https://www.toptal.com/developers/gitignore/api/macos,java,eclipse,intellij
+=======
+# End of https://www.toptal.com/developers/gitignore/api/macos,intellij+all,java
+/.metadata/
+>>>>>>> Stashed changes
