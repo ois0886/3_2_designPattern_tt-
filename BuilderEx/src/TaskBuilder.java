@@ -7,13 +7,19 @@ public class TaskBuilder {
 	private String description = ""; // 일정에 대한 상세설명
 	private boolean done = false; // 일정에 대한 완료되었는지 완료되지않았는지를 설명하는 변수
 	private Date dueDate; // 해당 Task가 언제인지를 기록하는 변수
-
+	
+	/*
 	public TaskBuilder(long id, String summary, String description, Date dueDate) {
 		this.id = id;
 		this.description = description;
 		this.summary = summary;
 		this.done = done;
 		this.dueDate = dueDate;
+	}
+	*/
+	
+	public TaskBuilder(long id) {
+		this.id = id;
 	}
 
 	public void setSummary(String summary) {

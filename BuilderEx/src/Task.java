@@ -55,6 +55,12 @@ public class Task {
 		return id;
 	}
 
+	@Override
+	public String toString() {
+		return "Task [id=" + id + ", summary=" + summary + ", description=" + description + ", done=" + done
+				+ ", dueDate=" + dueDate + "]";
+	}
+	
 }
 
 // 클래스에서 새로운 객체를 만들때 객체에게 값을 할당하는 방법
