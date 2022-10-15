@@ -31,8 +31,8 @@ public class TaskBuilder {
 	public void setDueDate(Date dueDate) {
 		this.dueDate = dueDate;
 	}
-	
+
 	public Task build() {
-		
+		return new Task(id, summary, description, done, dueDate);
 	}
 }
