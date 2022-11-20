@@ -19,5 +19,4 @@ public class StarbucksCoffee {
 		System.out.println(beverage3.getDescription() + " $" + beverage3.cost());
 
 	}
-
 }
